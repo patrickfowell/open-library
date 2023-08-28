@@ -27,6 +27,8 @@ export interface CardProps {
 }
 
 const authorNames = (list: Authors[]): string => {
+  console.log('Test')
+  console.log(typeof list);
   const authorList = list.map(({ name }) => name)
   switch (authorList.length) {
     case 1:
