@@ -1,3 +1,5 @@
+import { BookCard, Carousel } from "@open-library/ui-components";
+
 /*
  * * * * * * * * * * * * * * * * * * * * * * * * * * * *
  This is a starter component and can be deleted.
@@ -454,6 +456,10 @@ export function NxWelcome({ title }: { title: string }) {
               </svg>
             </div>
           </div>
+
+          <Carousel>
+            <BookCard />
+          </Carousel>
 
           <div id="middle-content">
             <div id="learning-materials" className="rounded shadow">
